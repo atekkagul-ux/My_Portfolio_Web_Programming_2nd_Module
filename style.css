@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Header Section (2 Alag-Alag Stripes/Lines) */
+header {
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+}
+
+.top-title {
+    padding: 12px 0;
+    border-bottom: 1px solid #444; /* My Portfolio ke neechay line separator */
+}
+
+.top-title h2 {
+    color: white;
+    margin: 0;
+    font-size: 20px;
+}
+
+.nav-links {
+    padding: 10px 0;
+    background-color: #222; /* Navigation links ka alag dark section */
+}
+
+.nav-links span {
+    color: white;
+    margin: 0 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+/* Sections Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    background: white;
+    max-width: 700px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Headings Colour (Purple) */
+h2 {
+    color: #4a00e0;
+}
+
+/* Main Name (Black & Bold) */
+h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Home aur About Me Text (Black & Bold) */
+#home p, #about p {
+    font-weight: bold;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* Image Styling */
+img {
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid #4a00e0;
+}
+
+/* Skills List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e1dffc;
+    margin: 5px auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Contact Form Styling */
+.contact-box {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #777;
+    font-weight: bold;
+}
+
+.send-btn {
+    background-color: #4a00e0;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px auto;
+    width: 60px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Styling for Tablets and Desktops */
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+    /* Home section ko bari screen par poori width dene ke liye */
+    #home{
+        grid-column: span 2;
+    }
+
+    #contact{
+    	grid-column: span 1;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
