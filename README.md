@@ -12,11 +12,15 @@ Welcome to Module 2 of my professional web development portfolio project! This r
 * **HTML5** (Semantic markup, structural layout tags)
 * **CSS3** (Styling, Flexbox, Grid, background positioning)
 
+## 📸 Project Output & Preview
+Here is the complete preview of the portfolio website layout:
 * **Top Section (Home, About & Skills):**  
   ![Portfolio Top View](output.png)
 
 * **Bottom Section (Contact & Footer):**  
   ![Portfolio Bottom View](output-bottom.png)
+  
+  Output is not shown in full image that"s why divide in 2 Outputs.
 ---
 *Developed with dedication as part of web engineering and front-end design practice.*# My_Portfolio_Web_Programming_2nd_Module
 
